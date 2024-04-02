@@ -18,10 +18,7 @@
 > 熟悉 huggingface 下载功能，使用 huggingface_hub python 包，下载 InternLM2-Chat-7B 的 config.json 文件到本地（需截图下载过程）
 
 ## 对应的huggingface_hub的下载文件方法如下： 
-
-
-
-
+如果不指定位置，默认是下载在cache下的位置，比较难找
 ```
 # pip install -U huggingface_hub
 import os 
@@ -29,15 +26,25 @@ from huggingface_hub import hf_hub_download  # Load model directly
 
 hf_hub_download(repo_id="internlm/internlm2-7b", filename="config.json")
 ```
+![1](./src/hf_dwonload/1.png)
+![1](./src/hf_dwonload/2.png)
 
-## 对应的modelscope.hub的下载文件方法如下： 
+如果指定位置参数，则下载到指定位置使用local_dir参数
+
+参考官方文档： https://huggingface.co/docs/huggingface_hub/en/guides/download 下载到指定位置即可解决这个问题
+![1](./src/hf_dwonload/3.png)
+![1](./src/hf_dwonload/4.png)
+
+
+## 魔搭也有对应的方法，modelscope.hub的下载文件方法如下： 
 ```
 from modelscope.hub.file_download import model_file_download
 model_file_download(model_id="Shanghai_AI_Laboratory/InternLM2-Chat-7B", 
                     file_path="config.json",
+                    cache_dir='internlm2-7b-modelscope'，
                     revision='v1.1.0')
 ```
-
+![1](./src/hf_dwonload/6.png)
 
 # 3、实践部署 浦语·灵笔2 模型
 
