@@ -1,1 +1,1 @@
-# InternLM_Camp2
+# InternLM_SummerCamp
