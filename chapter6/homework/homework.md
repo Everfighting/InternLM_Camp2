@@ -1,107 +1,43 @@
-创建开发机及环境
+环境配置.png
 
-![创建开发机及环境.png](./src/创建开发机及环境.png)
+![环境配置.png](./src/环境配置.png)
 
-安装conda环境
+补充相关软件包.png
 
-![安装conda环境.png](./src/安装conda环境.png)
+![补充相关软件包.png](./src/补充相关软件包.png)
 
-拷贝对应模型
+安装相关软件包.png
 
-![拷贝对应模型.png](./src/拷贝对应模型.png)
+![安装相关软件包.png](./src/安装相关软件包.png)
 
-激活环境安装缺失包
+下载教程.png
 
-![激活环境安装缺失包.png](./src/激活环境安装缺失包.png)
+![下载教程.png](./src/下载教程.png)
 
-运行程序pipeline
+运行大模型的后端服务.png
 
-![运行程序pipeline.png](./src/运行程序pipeline.png)
+![运行大模型的后端服务.png](./src/运行大模型的后端服务.png)
 
-测试pipeline
+web页面进行论文搜索.png
 
-![测试pipeline.png](./src/测试pipeline.png)
+![web页面进行论文搜索.png](./src/web页面进行论文搜索.png)
 
-启动lmdeploy
+配置天气API.png
 
-![启动lmdeploy.png](./src/启动lmdeploy.png)
+![配置天气API.png](./src/配置天气API.png)
 
-lmdeploy对话
+选择天气插件进行天气询问.png
 
-![lmdeploy对话.png](./src/lmdeploy对话.png)
+![选择天气插件进行天气询问.png](./src/选择天气插件进行天气询问.png)
 
-lmdeploy相关参数查看
+angentlego环境安装.png
 
-![lmdeploy相关参数查看.png](./src/lmdeploy相关参数查看.png)
+![angentlego环境安装.png](./src/angentlego环境安装.png)
 
-传统内存使用,查看右上角
+调用进行图片标注.png
 
-![传统内存使用-右上角.png](./src/传统内存使用-右上角.png)
+![调用进行图片标注.png](./src/调用进行图片标注.png)
 
-lmdeploy内存使用，查看右上角
+图片标注效果.png
 
-![lmdeploy内存使用-右上角.png](./src/lmdeploy内存使用-右上角.png)
-
-lmdeploy限定内存使用，查看右上角
-
-![lmdeploy限定内存使用-右上角.png](./src/lmdeploy限定内存使用-右上角.png)
-
-lmdeploy模型压缩
-
-![lmdeploy模型压缩.png](./src/lmdeploy模型压缩.png)
-
-lmdeploy压缩细节
-
-![lmdeploy压缩细节.png](./src/lmdeploy压缩细节.png)
-
-压缩前内存，查看右上角
-
-![压缩前内存-右上角.png](./src/压缩前内存-右上角.png)
-
-压缩后内存，查看右上角
-
-![压缩后内存-右上角.png](./src/压缩后内存-右上角.png)
-
-lmdeploy部署
-
-![lmdeploy部署.png](./src/lmdeploy部署.png)
-
-[端口转发
-
-![端口转发.png](./src/端口转发.png)
-
-在线生成的API
-
-![在线生成的API.png](./src/在线生成的API.png)
-
-命令行测试部署server
-
-![命令行测试部署server.png](./src/命令行测试部署server.png)
-
-浏览器端测试server服务
-
-![浏览器端测试server服务.png](./src/浏览器端测试server服务.png)
-
-lmdeploy原始和压缩后
-
-![lmdeploy原始和压缩后.png](./src/lmdeploy原始和压缩后.png)
-
-llava命令行测试
-
-![llava命令行测试.png](./src/llava命令行测试.png)
-
-llava中文询问测试
-
-![llava中文询问测试.png](./src/llava中文询问测试.png)
-
-gradio配置启动
-
-![gradio配置启动.png](./src/gradio配置启动.png)
-
-gradio在线测试
-
-![gradio在线测试.png](./src/gradio在线测试.png)
-
-lmdeploy速度提升展示
-
-![lmdeploy速度提升展示.png](./src/lmdeploy速度提升展示.png)
+![图片标注效果.png](./src/图片标注效果.png)
